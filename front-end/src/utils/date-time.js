@@ -82,10 +82,6 @@ export function next(currentDate) {
   return asDateString(date);
 }
 
-export function getDay(date){
-  return moment(date).format("dddd")
-};
-
 export function inTheFuture(reservation_date, errors){
   const [year, month, day] = reservation_date.split("-");
   const resDate = new Date(`${month} ${day}, ${year}`);
