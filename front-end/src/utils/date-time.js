@@ -1,6 +1,6 @@
 const dateFormat = /\d\d\d\d-\d\d-\d\d/;
 const timeFormat = /\d\d:\d\d/;
-const moment = require("moment");
+
 
 /**
  * Formats a Date object as YYYY-MM-DD.
